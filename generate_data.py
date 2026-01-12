@@ -9,11 +9,11 @@ from typing import Dict, List, Any
 import google.generativeai as genai
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyAoVYswbU_7yNJzeIxqbdhdWN3daTrtzpw"
+GEMINI_API_KEY = "inser_api_key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize the model (using current supported model)
-model = genai.GenerativeModel("gemini-flash-lite-latest")
+model = genai.GenerativeModel("gemini-flash-lite-latest")// insert the  mane of your model 
 
 
 # Industries and their counts
